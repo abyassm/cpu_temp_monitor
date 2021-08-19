@@ -45,30 +45,4 @@ while True:
 
 
 
-
-
-
-#USE BELOW FOR REFERENCE 
-
-
-#average the temp of CPU among cores
-#total = 0
-#
-#sensorsToMonitor = []
-
-#get sensors for temp, we find the sensors to poll from only once by scanning all available sensors.
-#for a in range(0, len(c.Hardware[0].Sensors)):
-#    print(c.Hardware[0].Sensors[a].Identifier) #use to see sensor identifiers
-#    if "temperature" in str(c.Hardware[0].Sensors[a].Identifier):
-#        sensorsToMonitor.append(a)
-#   
-#while True:
-#
-#    for b in range(0, len(sensorsToMonitor)):
-#        total = total + c.Hardware[0].Sensors[b].get_Value()
-#        c.Hardware[0].Update()
-#        print(b)
-#            
-#    print(str(total/len(sensorsToMonitor)) + "C")
-#    total = 0
     

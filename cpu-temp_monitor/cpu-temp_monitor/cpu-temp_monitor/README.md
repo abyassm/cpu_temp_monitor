@@ -1,4 +1,5 @@
-First pip install pythonnet
+- First pip install pythonnet
 
-To run the app - python main.py
-app uses OpenHardwareMonitor DLL and Flask framework
+- To run the app - python main.py
+
+- app uses OpenHardwareMonitor DLL and Flask framework
